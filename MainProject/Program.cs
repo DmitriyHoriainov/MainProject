@@ -14,7 +14,7 @@ namespace ConsoleApplication4
             Dictionary<string, double> dict = new Dictionary<string, double>();
             Console.WriteLine("ВВедите количество учеников");
             int k = Convert.ToInt32(Console.ReadLine());
-          
+            k = 3;
 
             for (int i = 0; i < k; i++)
             {
